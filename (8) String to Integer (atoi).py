@@ -1,3 +1,10 @@
+"""
+(8) String to Integer (atoi)
+https://leetcode.com/problems/string-to-integer-atoi/
+
+Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer (similar to C/C++'s atoi function).
+"""
+
 VALID_DIGITS = set(map(lambda d: str(d), range(10)))
 
 def myAtoi(s):

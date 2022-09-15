@@ -1,3 +1,11 @@
+"""
+(393) UTF-8 Validation
+https://leetcode.com/problems/utf-8-validation/
+
+Given an integer array data representing the data, 
+return whether it is a valid UTF-8 encoding (i.e. it translates to a sequence of valid UTF-8 encoded characters).
+"""
+
 def charPreamble(char):
     # Returns the first 5 bits of a given character,
     # along with the type of preamble it is.
